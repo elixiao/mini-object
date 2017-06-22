@@ -1,0 +1,12 @@
+{
+  "name": "mini-object",
+  "version": "0.0.1",
+  "description": "lightweight object helper tool",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/elixiao/mini-object"
+  },
+  "author": "elixiao",
+  "license": "MIT"
+}
