@@ -1,6 +1,5 @@
-const fs = require('fs');
-
 function MiniObject(obj) {
+  obj = obj || {}
   if (obj instanceof MiniObject) return obj
   let keys = Object.keys(obj), i = 0, len = keys.length, key
   for (; i < len; i++) {
